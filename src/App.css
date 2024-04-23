@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* style.css */
+
+body {
+  background-image: url("https://source.unsplash.com/random/1920x1080"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.form {
+  max-width:400px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7); /* Glassmorphism effect: translucent white */
+  backdrop-filter: blur(10px); /* Glassmorphism effect: blur */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Glassmorphism effect: shadow */
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); /* Glassmorphism effect: translucent white */
+  backdrop-filter: blur(5px); /* Glassmorphism effect: blur */
+}
+
+.form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
